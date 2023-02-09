@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+<!--------------------------------------heading -------------------------------------------------------------------------------------------------->
+<section class="head">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+
+      <a class="navbar-brand" href="https://reezhdesign.com">CLASSYADS</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>        
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active  touquest" aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="Dream_secondpage.html">Ads</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="dream_thirdpage.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="dream_thirdpage.html">The Company</a></li>
+              <li><a class="dropdown-item" href="dream_thirdpage.html">The Leadership</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="dream_thirdpage.html">Careers</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active"   href="Dream_4thpage.html"  >Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active"    href="Dream_5thpage.html"     >Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active"  href="signin_and_register.html">Log In</a>
+          </li>                   
+
+          <li class="nav-item">
+            <a class="nav-link active" href="Resgiter_page.html"  > Register</a>
+          </li>
+
+          <form class="d-flex" role="search">
+           
+            <button class="btn btn-outline-success touquest " type="submit">+Post an Ad</button>
+          </form>
+
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+    
+
+
+
+<p class="sentance"> Ads Listings</p>
+<br>
+
+<p class="second_page_heading">Choose product you want</p>
+
+
+</section>
+        
+<!-------------------------------------- End ofheading -------------------------------------------------------------------------------------------------->
+
+        
+<!-------------------------------------- Start with fileter section -------------------------------------------------------------------------------------------------->
+
+<section class="Second_page_filter">
+
+                <div class="row md">
+
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">  </h5>
+                          <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+                          
+                            Don St, Brooklyn, New York
+                          
+                          </h5>       </p>
+                         
+
+                          <P>
+     
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset>
+                            
+                            </P>
+
+                        </div>
+                      </div>
+                    </div>
+
+                
+
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                        
+  <h5 class="card-title">  <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/torquay-exterior-luxury-house-for-sale-1597322103.jpg" class="card-img-top" alt="...">  </h5>
+                          <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+                          
+                            Don St, Brooklyn, New York
+                          
+                          </h5>       </p>
+                         
+
+                          <P>
+     
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset>
+                            
+                            </P>
+
+
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                  
+
+                    
+                    <div class="col-md-3 bootom_first  ">
+                      <div class="card border-0 ">
+                        <div class="card-body">
+                          <h4 class="card-title gray-center"> Filter</h4>
+                          <p class="card-text"> 
+
+                            <form>
+
+                              <div class="filter" > 
+
+                              <div class="inputbox">
+                                <input type="text" required="required" placeholder="What are you looking for ?"  >
+                              </div>
+
+                                 </div>
+
+                                 <div class="filter">
+
+                              <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                 Real Estate
+                                </button>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Books</a></li>
+                                  <li><a class="dropdown-item" href="#">Electronics</a></li>
+                                  <li><a class="dropdown-item" href="#">Cars</a></li>
+                                </ul>
+                              </div>
+                            </div>
+
+                            <div class="filter">
+                              <div class="inputbox">
+                                <input type="text" required="required"   placeholder="Location?"  >
+                              </div>
+                            </div>
+                              </form>
+                          </p>
+
+                          <h3 class="gray-center">Reduis aound selected destination  in KM </h3>
+                       
+                          <div>
+                            <span id="rangeValue">0</span>
+                            <Input class="range" type="range" name "" value="" min="0" max="250" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+             
+
+                  <div class="row md">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                         
+                          <h5 class="card-title">  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">  </h5>
+                          <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+                          
+                            Don St, Brooklyn, New York
+                          
+                          </h5>       </p>
+                         
+
+                          <P>
+     
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset>
+                            
+                            </P>
+
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          
+                                                 
+  <h5 class="card-title">  <img src="https://fdn.gsmarena.com/imgroot/news/20/12/samsung-galaxy-s21-storage-colors/-1200/gsmarena_005.jpg" class="card-img-top" alt="...">  </h5>
+  <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+  
+    Don St, Brooklyn, New York
+  
+  </h5>       </p>
+ 
+
+  <P>
+
+    <fieldset class="rating">
+        <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+        <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+        <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+        <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+        <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+        <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+        <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+        <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+        <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+        <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+    </fieldset>
+    
+    </P>
+
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-3">
+                      <div class="card  border-0">
+                        <div class="card-body">
+                          <h6 class="card-title"> Category 'Real Estate' is Selected</h6>
+                          <p class="card-text">
+
+
+                            <h6>More Filters</h6>
+                            
+                            <label class="container">Residential
+                              <input type="checkbox" checked="checked">
+                              <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Commercial
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Industrial
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                            <label class="container">Land
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                            </label>
+                            
+
+                          </p>
+                          
+
+                          <div class="col-md-">
+                            <div class="card  border-0">
+                              <div class="card-body">
+                                <h5 class="card-title">More Info</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti voluptatem placeat facilis, reprehenderit eius officiis. </p>
+                                
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+
+
+                  <div class="row md">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+
+                            <h5 class="card-title">  <img src="https://img-ik.cars.co.za/news-site-za/images/2020/04/Renault-Megane_RS-2018-1024-86.jpg" class="card-img-top" alt="...">  </h5>
+                          <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+                          
+                            Don St, Brooklyn, New York
+                          
+                          </h5>       </p>
+                         
+
+                          <P>
+     
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset>
+                            
+                            </P>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                       
+  <h5 class="card-title">  <img src="https://www.discountdecor.co.za/wp-content/uploads/2022/06/Satao-Coffee-Table-3.jpg" alt="...">  </h5>
+                          <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+                          
+                            Don St, Brooklyn, New York
+                          
+                          </h5>       </p>
+                         
+
+                          <P>
+     
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset>
+                            
+                            </P>
+
+                        </div>
+                      </div>
+                    </div>
+
+                    
+
+
+
+                  </div>
+
+
+
+
+                  <div class="row md">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                         
+  <h5 class="card-title">  <img src= > <img src="https://img.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1253i215%2Fj7qbzxvz0zgp46y3nd92q6bq74i215&option=N&h=472&permitphotoenlargement=false" class="card-img-top" alt="..."> </h5>
+                          <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+                          
+                            Don St, Brooklyn, New York
+                          
+                          </h5>       </p>
+                         
+
+                          <P>
+     
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset>
+                            
+                            </P>
+
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                         
+  <h5 class="card-title">  <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">  </h5>
+                          <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+                          
+                            Don St, Brooklyn, New York
+                          
+                          </h5>       </p>
+                         
+
+                          <P>
+     
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset>
+                            
+                            </P>
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+               
+                  <div class="row md">
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                          
+  <h5 class="card-title">  <img src="data:image/jpeg;base64,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" alt="...">  </h5>
+                          <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+                          
+                            Don St, Brooklyn, New York
+                          
+                          </h5>       </p>
+                         
+
+                          <P>
+     
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset>
+                            
+                            </P>
+
+
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                      <div class="card">
+                        <div class="card-body">
+                         
+                            <h5 class="card-title">  <img src="https://www.apple.com/v/iphone-13/f/images/meta/iphone-13_specs__bpr60apdzuaa_og.png?202209300100" class="card-img-top" alt="...">  </h5>
+                          <p class="card-text"><h5>Cars  & Vehicles  <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> <br>
+                          
+                            Don St, Brooklyn, New York
+                          
+                          </h5>       </p>
+                         
+
+                          <P>
+     
+                            <fieldset class="rating">
+                                <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                            </fieldset>
+                            
+                            </P>
+
+                        </div>
+                      </div>
+                    </div>
+
+                  
+                  </div>
+            </div>
+            </div>
+        
+<div class="container">
+
+            <div class="pagination">
+                    
+              <a href="#"><button class="button button5">1</button>  </a>
+              <a href="#">  <button class="button button5">2</button>  </a>
+              <a href="#"> <button class="button button5">3</button>   </a>
+              <a> <button class="button button5">4</button>  </a>
+              <a > <button class="button button5">5</button>     </a>
+             <a> <button class="button button5">6</button> </a> 
+             
+            </div>
+
+          </div>
+              
+        </section>
+
+        
+<!-------------------------------------- End of Filter Section -------------------------------------------------------------------------------------------------->
+
+
+
+<!--------------------------------------Trading Section -------------------------------------------------------------------------------------------------->
+        
+          <section class=" Trading">
+
+           
+              <div class="container">
+             <h1 class="power touquest" >Trading Today  </h1>
+            
+             <div class="row row-cols-1 row-cols-md-2 g-4">
+            
+            
+              <div class="card mb-3 shift" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img  src="https://images.prop24.com/274391548/Crop600x400" class="img-fluid rounded-start"  alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"><h7 class="bg">Real Estate</h7> <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i> </h5>
+                      <p class="card-text"><h7 class="touquest">House with Swimming Pool </h7> <br> <h7 class="gray">Don St,Brooklyn,New York </h7></p> 
+                     
+            <P>
+                 
+              <fieldset class="rating">
+                  <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                  <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                  <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                  <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                  <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                  <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                  <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                  <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                  <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                  <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+              </fieldset>
+              
+              </P>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="card mb-3 shift" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://www.carmag.co.za/wp-content/uploads/2017/08/bmw-m4-cs-4.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"><h7 class="bg">Cars & Vehicles</h7> <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i></h5>
+                      <p class="card-text"> <h7 class="touquest"> Red Luxury Car</h7> <br> <h7 class="gray">Don St,Brooklyn,New York </h7> </p>
+                      
+                      <P>
+                 
+                        <fieldset class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                        </fieldset>
+                        
+                        </P>
+                               
+            
+            
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card mb-3 shift" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://pattersoncustomhomes.com/wp-content/uploads/2018/11/modern-beach-house-exterior-bay.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title"><h7 class="bg">Furniture</h7> <i class="fa fa-gratipay fa-2x touquest" aria-hidden="true"></i></h5>
+                      <p class="card-text"> <h7 class="touquest"> Wooden Chair & Table </h7> <br> <h7 class="gray">Don St,Brooklyn,New York </h7> </p>
+                    
+                      <P>
+                 
+                        <fieldset class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                        </fieldset>
+                        
+                        </P>
+            
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card mb-3 shift" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://pattersoncustomhomes.com/wp-content/uploads/2018/11/modern-beach-house-exterior-bay.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title "> <h7 class="bg">Real Estate</h7> <i class="fa fa-gratipay fa-2x touquest " aria-hidden="true"></i> </h5>
+                      <p class="card-text">  <h7 class="touquest">House with Swimming Pool </h7> <br> <h7 class="gray">Don St,Brooklyn,New York </h7></p>       
+                      
+            
+                      <P>
+                 
+                        <fieldset class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                        </fieldset>
+                        
+                        </P>
+            
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="card mb-3 shift" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://pattersoncustomhomes.com/wp-content/uploads/2018/11/modern-beach-house-exterior-bay.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title "><h7 class="bg">Electronics</h7> <i class="fa fa-gratipay fa-2x touquest " aria-hidden="true"></i></h5>
+                      <p class="card-text"> <h7 class="touquest"> iphone X gray</h7> <br> <h7 class="gray">Don St,Brooklyn,New York </h7></p> 
+            
+                      
+            
+            
+                  
+                      
+                      <P>
+                 
+                        <fieldset class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                        </fieldset>
+                        
+                        </P>
+            
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card mb-3  shift" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="https://pattersoncustomhomes.com/wp-content/uploads/2018/11/modern-beach-house-exterior-bay.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title "> <h7 class="bg">Furniture</h7><i class="fa fa-gratipay fa-2x  touquest" aria-hidden="true"></i> </h5>
+                      <p class="card-text"><h7 class="touquest"> Wooden Chair & Table </h7> <br> <h7 class="gray">Don St,Brooklyn,New York </h7></p> 
+                      
+                      
+            
+                      <P>
+                 
+                        <fieldset class="rating">
+                            <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                            <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                            <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                            <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                            <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                            <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                            <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                            <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                            <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                            <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                        </fieldset>
+                        
+                        </P>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            </div>
+            </section>
+
+
+
+        <section class="Testimonial">
+
+
+
+          <div class="container-xl">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="tesi  touquest ">Testimonials</h2>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>   
+                  <!-- Wrapper for carousel items -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="img-box"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUsCCPF4VKlSzDefTdhU83YY_2tpzksT_Htt5wJnu-gX9kzM4pK8aTKkrZNfK1Xp2fxwA&usqp=CAU" alt=""></div>
+                      <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                      <p class="overview"><b>Paula Wilson</b>, Media Analyst</p>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-box"><img src="/examples/images/clients/2.jpg" alt=""></div>
+                      <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                      <p class="overview"><b>Antonio Moreno</b>, Web Developer</p>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-box"><img src="/examples/images/clients/3.jpg" alt=""></div>
+                      <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                      <p class="overview"><b>Michael Holz</b>, Seo Analyst</p>
+                    </div>
+                  </div>
+                  <!-- Carousel controls -->
+                  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                    <i class="fa fa-angle-left"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                    <i class="fa fa-angle-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </section>
+            
+       
+<!--------------------------------------------------------------------The  FOOTer section --------------------------------------------------------->
+<!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #3e4551">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase touquest">FOOTER CONTENT</h5>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Molestiae modi cum ipsam ad, illo possimus laborum ut
+              reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
+              Reiciendis assumenda iusto sapiente inventore animi?
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase touquest">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase touquest">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase touquest">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase touquest">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+
+      <hr class="mb-4" />
+
+      <!-- Section: CTA -->
+      <section class="">
+        <p class="d-flex justify-content-center align-items-center">
+          <span class="me-3 touquest">Register for free</span>
+          <button type="button" class="btn btn-outline-light btn-rounded">
+            Sign up!
+          </button>
+        </p>
+      </section>
+      <!-- Section: CTA -->
+
+      <hr class="mb-4" />
+
+      <!-- Section: Social media -->
+      <section class="mb-4 text-center">
+        <!-- Facebook -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"> <i class="fa fa-facebook" aria-hidden="true"></i>    </a>
+
+
+  <!-- Github -->
+  <a
+  class="btn btn-outline-light btn-floating m-1"
+  href="#!"
+  role="button"> <i class="fa fa-github" aria-hidden="true"></i>    </a>
+
+
+
+
+        <!-- Twitter -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button">  <i class="fa fa-twitter" aria-hidden="true"></i>     </a>
+
+        <!-- Google -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           >  <i class="fa fa-google" aria-hidden="true"></i>     </a>
+
+        <!-- Instagram -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button"
+           > <i class="fa fa-instagram" aria-hidden="true"></i>   </a>
+
+        <!-- Linkedin -->
+        <a
+           class="btn btn-outline-light btn-floating m-1"
+           href="#!"
+           role="button">  <i class="fa fa-linkedin-square" aria-hidden="true"></i>   </a>
+
+      
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >Sandile Mabaso</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+
+<!--------------------------------------------------------------------The end of  FOOter section --------------------------------------------------------->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
